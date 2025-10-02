@@ -59,6 +59,7 @@ const initialCenters = [
     { id: 7, name: 'E. ARTE MIGUEL MARMOLEJO', comments: [] },
     { id: 8, name: 'CC. NTRA SRA. DEL BUEN CONSEJO', comments: [] },
     { id: 9, name: 'UGR Universidad de Granada en Melilla', comments: [] },
+    { id: 10, name: 'IES. ENRIQUE NIETO', comments: [] },
 ];
 
 const validEmails = [
@@ -69,7 +70,8 @@ const validEmails = [
     'extraescolares.ies.rusadir@edumelilla.es',
     'juan.rios@edumelilla.es',
     'eeaa.melilla@educacion.gob.es',
-    'juanmartinezfelices@hotmail.com'
+    'juanmartinezfelices@hotmail.com',
+    'mariaangustias.megias@edumelilla.es'
 ];
 
 const noteColors = ['#B5EAD7', '#FEE440', '#A0CED9', '#FFD1BA', '#C7CEEA'];
@@ -319,8 +321,8 @@ const App = () => {
 
             <main>
                 <section className="card about-event">
-                    <h2>Provocando el Futuro</h2>
-                    <p>La XVIII edición del Día del Emprendimiento en el Teatro Kursaal,  es un punto de encuentro para los cerca de 600 jóvenes de Bachillerato, FP y la UGR. El evento apuesta por el emprendimiento como motor de transformación e iniciativa en un mundo en constante cambio. Melilla se presenta como un territorio de oportunidades gracias a ventajas fiscales únicas y el firme compromiso con vuestra formación para liderar el futuro. La jornada incluye tres ponencias inspiradoras para que aprovechéis el apoyo y los recursos disponibles. Recordad: si decidís innovar y crear, Melilla os espera con los brazos abiertos. El futuro no se espera, ¡se provoca!</p>
+                    <h2>CONSTRUYENDO EL FUTURO</h2>
+                    <p>La XVIII edición del Día del Emprendimiento en el Teatro Kursaal, es un punto de encuentro para los cerca de 600 jóvenes de Bachillerato, FP y la UGR. El evento apuesta por el emprendimiento como motor de transformación e iniciativa en un mundo en constante cambio. Melilla se presenta como un territorio de oportunidades gracias a ventajas fiscales únicas y el firme compromiso con vuestra formación para liderar el futuro. La jornada incluye tres ponencias inspiradoras para que aprovechéis el apoyo y los recursos disponibles. Recordad: si decidís innovar y crear, Melilla os espera con los brazos abiertos. El futuro no se espera, ¡se construye!</p>
                 </section>
 
                  <section className="card qr-code-section">
